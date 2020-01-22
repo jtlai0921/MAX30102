@@ -1,0 +1,108 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: £gVision V5.16.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: .0wwww user, FFF, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.16.0.0
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 (build 20)
+Assembler:       Armasm.exe V5.06 (build 20)
+Linker/Locator:  ArmLink.exe V5.06 (build 20)
+Library Manager: ArmAr.exe V5.06 (build 20)
+Hex Converter:   FromElf.exe V5.06 (build 20)
+CPU DLL:         SARMCM3.DLL V5.16.0.0
+Dialog DLL:      DARMCM1.DLL V1.12.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.15.2
+Dialog DLL:      TARMCM1.DLL V1.9.0.0
+ 
+<h2>Project:</h2>
+C:\Users\user\Downloads\MAX30102\i2ctest.uvprojx
+Project File Date:  09/27/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 (build 20)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+compiling mylcd.c...
+compiling myi2c.c...
+compiling clk.c...
+compiling gpio.c...
+compiling main.c...
+compiling sys.c...
+compiling retarget.c...
+compiling i2c.c...
+compiling timer.c...
+compiling uart.c...
+assembling startup_Nano100Series.s...
+compiling system_Nano100Series.c...
+linking...
+Program Size: Code=5964 RO-data=328 RW-data=84 ZI-data=2724  
+".\Objects\i2ctest.axf" - 0 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.3.0.pack
+                ARM::CMSIS:CORE:4.1.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.1.0
+
+Package Vendor: Nuvoton
+                http://www.nuvoton.com/hq/enu/Documents/KEILSoftwarePack/Nuvoton.NuMicro_DFP.1.0.7.pack
+                Nuvoton::Device:Startup:3.01.000
+                Nuvoton ARM Cortex-M NuMicro Family Device Support
+   * Component: Startup Version: 3.01.000
+   * Component: I2C Version: 3.01.000
+   * Component: GPIO Version: 3.01.000
+   * Component: CLK Version: 3.01.000
+   * Component: Timer Version: 3.01.000
+   * Component: SYS Version: 3.01.000
+   * Component: UART Version: 3.01.000
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\user\Downloads\MAX30102\RTE
+  D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include
+  D:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.0.7\Device\NANO100BN\Driver
+  D:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.0.7\Device\NANO100BN\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.1.0
+
+   * Component: Nuvoton::Device:Startup:3.01.000
+      Include file:  Device\NANO100BN\Include\Nano100Series.h
+      Source file:   Device\NANO100BN\Source\ARM\startup_Nano100Series.s
+      Source file:   Device\NANO100BN\Source\system_Nano100Series.c
+      Source file:   Device\NANO100BN\Driver\retarget.c
+
+   * Component: Nuvoton::Device:Driver:I2C:3.01.000
+      Source file:   Device\NANO100BN\Driver\i2c.c
+      Include file:  Device\NANO100BN\Driver\i2c.h
+
+   * Component: Nuvoton::Device:Driver:GPIO:3.01.000
+      Source file:   Device\NANO100BN\Driver\gpio.c
+      Include file:  Device\NANO100BN\Driver\gpio.h
+
+   * Component: Nuvoton::Device:Driver:CLK:3.01.000
+      Source file:   Device\NANO100BN\Driver\clk.c
+      Include file:  Device\NANO100BN\Driver\clk.h
+
+   * Component: Nuvoton::Device:Driver:Timer:3.01.000
+      Include file:  Device\NANO100BN\Driver\timer.h
+      Source file:   Device\NANO100BN\Driver\timer.c
+
+   * Component: Nuvoton::Device:Driver:SYS:3.01.000
+      Include file:  Device\NANO100BN\Driver\sys.h
+      Source file:   Device\NANO100BN\Driver\sys.c
+
+   * Component: Nuvoton::Device:Driver:UART:3.01.000
+      Source file:   Device\NANO100BN\Driver\uart.c
+      Include file:  Device\NANO100BN\Driver\uart.h
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
